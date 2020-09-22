@@ -1,6 +1,7 @@
 import React from 'react';
 import config from '../../config';
 
+
 export default function Footer() {
   return (
     <footer className="footer text-center">
@@ -20,6 +21,15 @@ export default function Footer() {
             );
           })}
         </ul>
+        <div>
+          <a id="Contact" href="mailto:estherurzanqui81@gmail.com" className="btn btn-lg btn-light mr-4">
+            Email me
+          </a>
+        </div>
+        <br>
+        </br>
+        <br>
+        </br>
         <p className="text-muted small mb-0">
           Copyright &copy; Gatsby Starter Stylish
         </p>

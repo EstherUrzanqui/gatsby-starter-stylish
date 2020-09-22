@@ -8,10 +8,12 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import ScrollToTop from '../components/ScrollToTop';
 
-import p1 from '../assets/images/portfolio-1.jpg';
-import p2 from '../assets/images/portfolio-2.jpg';
-import p3 from '../assets/images/portfolio-3.jpg';
+import p1 from '../assets/images/covidtalent.png';
+import p2 from '../assets/images/belocal.png';
+import p3 from '../assets/images/esperança.png';
 import p4 from '../assets/images/portfolio-4.jpg';
+
+//import {Link, Router} from 'react-router-dom';
 
 const IndexPage = () => (
   <Layout>
@@ -37,173 +39,132 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-10 mx-auto">
             <h2>
-              Stylish Portfolio is the perfect theme for your next project!
+              Hi, I'm Esther, nice to meet you!
             </h2>
             <p className="lead mb-5">
-              This theme features a flexible, UX friendly sidebar menu and stock
-              photos from our friends
+            Recent full stack web developer graduate from CodeOp bootcamp at Barcelona. During my professional career I’ve acquired experience in Customer Service, Events, Marketing and Administration. 
+            I consider myself curious, a continuous learner and passionate about computers and technology in general, which got me to start this new adventure as a developer. 
+
+            I’m quietly confident, naturally problem solver and always working to improve myself professional and personally. 
             </p>
-            <Scroll type="id" element="services" offset={100}>
-              <a className="btn btn-dark btn-xl" href="#services">
-                What We Offer
+            {/*<Scroll type="id" element="myCv" offset={100}>*/}
+              <a className="btn btn-dark btn-xl" href="https://drive.google.com/file/d/1mucN_zpHlMdS2TKw1g-l03geEv_G_cRt/view?usp=sharing" target="_blank" rel = "noopener noreferrer">
+                My CV
               </a>
-            </Scroll>
+            {/*</Scroll>*/}
           </div>
         </div>
       </div>
     </section>
 
-    <section
-      className="content-section bg-primary text-white text-center"
-      id="services"
-    >
-      <div className="container">
-        <div className="content-section-heading">
-          <h3 className="text-secondary mb-0">Services</h3>
-          <h2 className="mb-5">What We Offer</h2>
-        </div>
-        <div className="row">
-          <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-screen-smartphone"></i>
-            </span>
-            <h4>
-              <strong>Responsive</strong>
-            </h4>
-            <p className="text-faded mb-0">Looks great on any screen size!</p>
-          </div>
-          <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-pencil"></i>
-            </span>
-            <h4>
-              <strong>Redesigned</strong>
-            </h4>
-            <p className="text-faded mb-0">
-              Freshly redesigned for Bootstrap 4.
-            </p>
-          </div>
-          <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-like"></i>
-            </span>
-            <h4>
-              <strong>Favorited</strong>
-            </h4>
-            <p className="text-faded mb-0">
-              Millions of users
-              <i className="fas fa-heart"></i>
-            </p>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-mustache"></i>
-            </span>
-            <h4>
-              <strong>Question</strong>
-            </h4>
-            <p className="text-faded mb-0">I mustache you a question...</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section className="callout">
-      <div className="container text-center">
-        <h2 className="mx-auto mb-5">
-          Welcome to
-          <em>your</em>
-          next website!
-        </h2>
-        <a
-          className="btn btn-primary btn-xl"
-          href="https://github.com/anubhavsrivastava/gatsby-starter-stylish"
-        >
-          Download Now!
-        </a>
-      </div>
-    </section>
-
-    <section className="content-section" id="portfolio">
+    <section className="content-section bg-primary text-white" id="portfolio">
       <div className="container">
         <div className="content-section-heading text-center">
-          <h3 className="text-secondary mb-0">Portfolio</h3>
-          <h2 className="mb-5">Recent Projects</h2>
+          <h3 className="text-secondary mb-0"> My Portfolio</h3>
+          <h2 className="mb-5">Projects</h2>
         </div>
         <div className="row no-gutters">
-          <div className="col-lg-6">
-            <a className="portfolio-item" href="/#">
+          <div className="col-lg-12">
+            <div>
               <span className="caption">
                 <span className="caption-content">
-                  <h2>Stationary</h2>
-                  <p className="mb-0">
-                    A yellow pencil with envelopes on a clean, blue backdrop!
+                  <h2>COVID-Talent</h2>
+                  <p className="mb-1">
+                  This is my first project ever, an MVP designed in two weeks 
+                  with the aim to connect professionals that were laid off during the 
+                  recent pandemic situation with companies in search of new talent. 
+                  It is free bias, only professional information is shown to make  
+                  the search simple and accurate. 
+                  <br></br>
+                  <br></br>
+                  <b>Tools</b>: React.js, Node/Express, RESTful API, MySQL, CSS, Bootstrap and EmailJS.
                   </p>
+                  <br></br>
+                  <a href="https://github.com/EstherUrzanqui/fspt2-mvp-talent" target="_blank" rel = "noopener noreferrer" className="btn btn-xl btn-light mr-4">
+                    Source Code
+                  </a>
                 </span>
               </span>
-              <img className="img-fluid" src={p1} alt="" />
-            </a>
           </div>
-          <div className="col-lg-6">
-            <a className="portfolio-item" href="/#">
-              <span className="caption">
-                <span className="caption-content">
-                  <h2>Ice Cream</h2>
-                  <p className="mb-0">
-                    A dark blue background with a colored pencil, a clip, and a
-                    tiny ice cream cone!
-                  </p>
-                </span>
+          <br></br>
+            <a className="portfolio-item" href="https://github.com/EstherUrzanqui/fspt2-mvp-talent" target="_blank" rel = "noopener noreferrer">
+              <img className="img-fluid" src={p1} alt="" />
+            </a>   
+      </div> 
+      <div className="col-lg-12">
+        <div>
+            <span className="caption">
+              <span className="caption-content">
+                <h2>beLocal</h2>
+                <p className="mb-0">
+                This app was developed and designed in three weeks in collaboration with <a class="link" href="https://www.linkedin.com/in/annatowarek/" target="_blank" rel = "noopener noreferrer">Anna Towarek</a> and <a class="link" href="https://www.linkedin.com/in/mariona-clara/" target="_blank" rel = "noopener noreferrer">Mariona Clará.</a> 
+                It is a multi-sided marketplace that promotes local tourism and communities by providing eco friendly activities hosted by local experts. 
+                <br></br>
+                <br></br>
+                <b>Tools</b>: React.js, Node/Express, RESTful API, Sequelize, CSS, Bootstrap,Google Maps API integration, JWT authentication, EmailJS and Heroku
+                </p>
+                <br></br>
+                <a href="https://github.com/EstherUrzanqui/fspt2-finalproject" target="_blank" rel = "noopener noreferrer" className="btn btn-xl btn-light mr-4">
+                  Source Code
+                </a>
+                <a href="https://belocalcatalonia.herokuapp.com/" target="_blank" rel = "noopener noreferrer" className="btn btn-xl btn-dark">
+                  See live
+                </a>
               </span>
+            </span>
+          </div>
+          <br></br>
+            <a className="portfolio-item" href="https://github.com/EstherUrzanqui/fspt2-finalproject" target="_blank" rel = "noopener noreferrer">
               <img className="img-fluid" src={p2} alt="" />
             </a>
-          </div>
-          <div className="col-lg-6">
-            <a className="portfolio-item" href="/#">
-              <span className="caption">
-                <span className="caption-content">
-                  <h2>Strawberries</h2>
-                  <p className="mb-0">
-                    Strawberries are such a tasty snack, especially with a
-                    little sugar on top!
-                  </p>
-                </span>
+      </div>
+      <br></br>
+      <div className="col-lg-12">
+        <div>
+          <span className="caption">
+            <span className="caption-content">
+              <h2>Esperança Project</h2>
+                <p className="mb-0">
+                An app designed by <a class="link" href="https://www.linkedin.com/in/carolinadorella/" target="_blank" rel = "noopener noreferrer">Carolina Dorella</a> for a Charity (Esperança) that provides food for homeless in Barcelona. 
+                I collaborated in this app as part of adding feature extension to the original code. 
+                My implementation included: Adding multiple form fields dynamically, and setting up a functional contact form. 
+                <br></br>
+                <br></br>
+                <b>Tools</b>: React.js, Node/Express, RESTful API, MySQL, CSS, Bootstrap, EmailJS.
+                </p>
+                <br></br>
+                <a href="https://github.com/cdorella/fspt2-volunteer-sign-up-project" target="_blank" rel = "noopener noreferrer" className="btn btn-xl btn-light mr-4">
+                  Source Code
+                </a>
+                <a href="https://volunteer-sign-up-project.herokuapp.com/" target="_blank" rel = "noopener noreferrer" className="btn btn-xl btn-dark">
+                  See live
+                </a>
               </span>
+            </span>
+          </div>
+          <br></br>
+            <a className="portfolio-item" href="https://github.com/cdorella/fspt2-volunteer-sign-up-project" target="_blank" rel = "noopener noreferrer">
               <img className="img-fluid" src={p3} alt="" />
             </a>
           </div>
-          <div className="col-lg-6">
-            <a className="portfolio-item" href="/#">
-              <span className="caption">
-                <span className="caption-content">
-                  <h2>Workspace</h2>
-                  <p className="mb-0">
-                    A yellow workspace with some scissors, pencils, and other
-                    objects.
-                  </p>
-                </span>
-              </span>
-              <img className="img-fluid" src={p4} alt="" />
-            </a>
-          </div>
         </div>
       </div>
     </section>
 
-    <section className="content-section bg-primary text-white">
+    {/*<section className="content-section bg-primary text-white">
       <div className="container text-center">
         <h2 className="mb-4">The buttons below are impossible to resist...</h2>
         <a href="/#" className="btn btn-xl btn-light mr-4">
-          Click Me!
+          Contact Me
         </a>
         <a href="/#" className="btn btn-xl btn-dark">
           Look at Me!
         </a>
       </div>
-    </section>
+    </section>*/}
 
-    {/* <section id="contact" className="map">
-      <iframe
+     <section id="contact">
+      {/*<iframe
         width="100%"
         height="100%"
         frameborder="0"
@@ -215,8 +176,8 @@ const IndexPage = () => (
       <br />
       <small>
         <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-      </small>
-    </section> */}
+      </small>*/}
+    </section> 
 
     <ScrollToTop />
     <Footer />

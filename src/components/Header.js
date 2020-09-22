@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Scroll from './Scroll';
 import config from '../../config';
+import Footer from './Footer'
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -50,7 +51,7 @@ export default class Header extends Component {
                 <a href="#about">About</a>
               </Scroll>
             </li>
-            <li className="sidebar-nav-item">
+            {/*<li className="sidebar-nav-item">
               <Scroll
                 onClick={_ => this.toggleMenu(!openMenu)}
                 type="id"
@@ -58,7 +59,7 @@ export default class Header extends Component {
               >
                 <a href="#services">Services</a>
               </Scroll>
-            </li>
+          </li>*/}
             <li className="sidebar-nav-item">
               <Scroll
                 onClick={_ => this.toggleMenu(!openMenu)}
