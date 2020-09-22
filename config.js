@@ -34,4 +34,3 @@ module.exports = {
   phone: '+34 665 680 845',
   //address: '305 Del Sol, Sunnyvale, CA',
 };
-
