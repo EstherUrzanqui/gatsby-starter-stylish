@@ -1,35 +1,37 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Stylish', // <title>
+  siteTitle: 'Esther Urzanqui', // <title>
   manifestName: 'Stylish',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/img/demo.png',
   pathPrefix: `/gatsby-starter-stylish/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'Esther Urzanqui',
+  subHeading: 'Junior fullstack web developer',
 
   // social
   socialLinks: [
     {
       icon: 'icon-social-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/EstherUrzanqui',
+      
+    },
+    {
+      icon: 'icon-social-linkedin',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/esther-urzanqui-02053355/',
     },
     {
       icon: 'icon-social-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'icon-social-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
-    },
+      url: 'https://twitter.com/EstherUrzanqui',
+    }
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  email: 'estherurzanqui81@gmail.com',
+  phone: '+34 665 680 845',
+  //address: '305 Del Sol, Sunnyvale, CA',
 };
+
