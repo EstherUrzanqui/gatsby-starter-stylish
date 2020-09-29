@@ -45,7 +45,7 @@ const IndexPage = () => (
             Recent full stack web developer graduate from CodeOp bootcamp at Barcelona. During my professional career I’ve acquired experience in Customer Service, Events, Marketing and Administration. 
             I consider myself curious, a continuous learner and passionate about computers and technology in general, which got me to start this new adventure as a developer. 
 
-            I’m quietly confident, naturally problem solver and always working to improve myself professional and personally. 
+            I’m confident, naturally problem solver and always working to improve myself professional and personally. 
             </p>
             {/*<Scroll type="id" element="myCv" offset={100}>*/}
               <a className="btn btn-dark btn-xl" href="https://drive.google.com/file/d/1mucN_zpHlMdS2TKw1g-l03geEv_G_cRt/view?usp=sharing" target="_blank" rel = "noopener noreferrer">
