@@ -70,7 +70,7 @@ const IndexPage = () => (
                 <span className="caption-content">
                   <h2>COVID-Talent</h2>
                   <p className="mb-1">
-                  This is my first project ever, an MVP designed in two weeks 
+                  This is my first project ever, a MVP designed in two weeks 
                   with the aim to connect professionals that were laid off during the 
                   recent pandemic situation with companies in search of new talent. 
                   It is free bias, only professional information is shown to make  
