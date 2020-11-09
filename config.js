@@ -22,7 +22,7 @@ module.exports = {
     {
       icon: 'icon-social-linkedin',
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/esther-urzanqui-02053355/',
+      url: 'https://www.linkedin.com/in/esther-urzanqui/',
     },
     {
       icon: 'icon-social-twitter',
