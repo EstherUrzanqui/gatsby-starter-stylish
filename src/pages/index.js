@@ -12,6 +12,7 @@ import p1 from '../assets/images/covidtalent.png';
 import p2 from '../assets/images/belocal.png';
 import p3 from '../assets/images/esperança.png';
 import p4 from '../assets/images/portfolio-4.jpg';
+import p5 from '../assets/images/routecalculator.png'
 
 //import {Link, Router} from 'react-router-dom';
 
@@ -119,6 +120,33 @@ const IndexPage = () => (
             </a>
       </div>
       <br></br>
+      <div className="col-lg-12">
+        <div>
+            <span className="caption">
+              <span className="caption-content">
+                <h2>Cost Trip Calculator</h2>
+                <p className="mb-0">
+                This app was developed and designed using a third party API, Mapbox-gl. The aim was to calculate the costs of a trip depending on the vehicle. 
+                It can be calculated by distance, entering coordinates or addresses. 
+                <br></br>
+                <br></br>
+                <b>Tools</b>: React.js, CSS, Bootstrap, Mapbox-gl, and Heroku
+                </p>
+                <br></br>
+                <a href="https://github.com/EstherUrzanqui/routecalculator" target="_blank" rel = "noopener noreferrer" className="btn btn-xl btn-light mr-4">
+                  Source Code
+                </a>
+                <a href="https://costscalculator.herokuapp.com/" target="_blank" rel = "noopener noreferrer" className="btn btn-xl btn-dark">
+                  See live
+                </a>
+              </span>
+            </span>
+          </div>
+          <br></br>
+            <a className="portfolio-item" href="https://costscalculator.herokuapp.com/" target="_blank" rel = "noopener noreferrer">
+              <img className="img-fluid" src={p5} alt="" />
+            </a>
+      </div>
       <div className="col-lg-12">
         <div>
           <span className="caption">
