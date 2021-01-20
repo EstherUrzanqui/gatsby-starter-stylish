@@ -65,33 +65,33 @@ const IndexPage = () => (
           <h2 className="mb-5">Projects</h2>
         </div>
         <div className="row no-gutters">
-          <div className="col-lg-12">
-            <div>
-              <span className="caption">
-                <span className="caption-content">
-                  <h2>COVID-Talent</h2>
-                  <p className="mb-1">
-                  This is my first project ever, a MVP designed in two weeks 
-                  with the aim to connect professionals that were laid off during the 
-                  recent pandemic situation with companies in search of new talent. 
-                  It is free bias, only professional information is shown to make  
-                  the search simple and accurate. 
-                  <br></br>
-                  <br></br>
-                  <b>Tools</b>: React.js, Node/Express, RESTful API, MySQL, CSS, Bootstrap and EmailJS.
-                  </p>
-                  <br></br>
-                  <a href="https://github.com/EstherUrzanqui/fspt2-mvp-talent" target="_blank" rel = "noopener noreferrer" className="btn btn-xl btn-light mr-4">
-                    Source Code
-                  </a>
-                </span>
+        <div className="col-lg-12">
+        <div>
+            <span className="caption">
+              <span className="caption-content">
+                <h2>Cost Trip Calculator</h2>
+                <p className="mb-0">
+                This app was developed and designed using a third party API, Mapbox-gl. The aim was to calculate the costs of a trip depending on the vehicle. 
+                It can be calculated by distance, entering coordinates or addresses. 
+                <br></br>
+                <br></br>
+                <b>Tools</b>: React.js, CSS, Bootstrap, Mapbox-gl, and Heroku
+                </p>
+                <br></br>
+                <a href="https://github.com/EstherUrzanqui/routecalculator" target="_blank" rel = "noopener noreferrer" className="btn btn-xl btn-light mr-4">
+                  Source Code
+                </a>
+                <a href="https://costscalculator.herokuapp.com/" target="_blank" rel = "noopener noreferrer" className="btn btn-xl btn-dark">
+                  See live
+                </a>
               </span>
+            </span>
           </div>
           <br></br>
-            <a className="portfolio-item" href="https://github.com/EstherUrzanqui/fspt2-mvp-talent" target="_blank" rel = "noopener noreferrer">
-              <img className="img-fluid" src={p1} alt="" />
-            </a>   
-      </div> 
+            <a className="portfolio-item" href="https://costscalculator.herokuapp.com/" target="_blank" rel = "noopener noreferrer">
+              <img className="img-fluid" src={p5} alt="" />
+            </a>
+      </div>
       <div className="col-lg-12">
         <div>
             <span className="caption">
@@ -120,33 +120,33 @@ const IndexPage = () => (
             </a>
       </div>
       <br></br>
-      <div className="col-lg-12">
-        <div>
-            <span className="caption">
-              <span className="caption-content">
-                <h2>Cost Trip Calculator</h2>
-                <p className="mb-0">
-                This app was developed and designed using a third party API, Mapbox-gl. The aim was to calculate the costs of a trip depending on the vehicle. 
-                It can be calculated by distance, entering coordinates or addresses. 
-                <br></br>
-                <br></br>
-                <b>Tools</b>: React.js, CSS, Bootstrap, Mapbox-gl, and Heroku
-                </p>
-                <br></br>
-                <a href="https://github.com/EstherUrzanqui/routecalculator" target="_blank" rel = "noopener noreferrer" className="btn btn-xl btn-light mr-4">
-                  Source Code
-                </a>
-                <a href="https://costscalculator.herokuapp.com/" target="_blank" rel = "noopener noreferrer" className="btn btn-xl btn-dark">
-                  See live
-                </a>
+          <div className="col-lg-12">
+            <div>
+              <span className="caption">
+                <span className="caption-content">
+                  <h2>COVID-Talent</h2>
+                  <p className="mb-1">
+                  This is my first project ever, a MVP designed in two weeks 
+                  with the aim to connect professionals that were laid off during the 
+                  recent pandemic situation with companies in search of new talent. 
+                  It is free bias, only professional information is shown to make  
+                  the search simple and accurate. 
+                  <br></br>
+                  <br></br>
+                  <b>Tools</b>: React.js, Node/Express, RESTful API, MySQL, CSS, Bootstrap and EmailJS.
+                  </p>
+                  <br></br>
+                  <a href="https://github.com/EstherUrzanqui/fspt2-mvp-talent" target="_blank" rel = "noopener noreferrer" className="btn btn-xl btn-light mr-4">
+                    Source Code
+                  </a>
+                </span>
               </span>
-            </span>
           </div>
           <br></br>
-            <a className="portfolio-item" href="https://costscalculator.herokuapp.com/" target="_blank" rel = "noopener noreferrer">
-              <img className="img-fluid" src={p5} alt="" />
-            </a>
-      </div>
+            <a className="portfolio-item" href="https://github.com/EstherUrzanqui/fspt2-mvp-talent" target="_blank" rel = "noopener noreferrer">
+              <img className="img-fluid" src={p1} alt="" />
+            </a>   
+      </div> 
       <div className="col-lg-12">
         <div>
           <span className="caption">
