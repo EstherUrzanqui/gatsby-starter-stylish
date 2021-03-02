@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/demo.png',
+  manifestIcon: 'src/assets/img/Esther.png',
   pathPrefix: `/gatsby-starter-stylish/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Esther Urzanqui',
   subHeading: 'Fullstack web developer',
@@ -32,5 +32,4 @@ module.exports = {
   ],
   email: 'estherurzanqui81@gmail.com',
   phone: '+34 665 680 845',
-  //address: '305 Del Sol, Sunnyvale, CA',
 };
