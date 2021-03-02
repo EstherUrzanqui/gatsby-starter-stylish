@@ -10,6 +10,7 @@ module.exports = {
   pathPrefix: `/gatsby-starter-stylish/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Esther Urzanqui',
   subHeading: 'Fullstack web developer',
+  image: 'src/assets/img/Esther.png',
 
   // social
   socialLinks: [
