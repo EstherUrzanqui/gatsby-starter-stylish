@@ -49,7 +49,7 @@ const IndexPage = () => (
             I’m confident, naturally problem solver and always working to improve myself professional and personally. 
             </p>
             {/*<Scroll type="id" element="myCv" offset={100}>*/}
-              <a className="btn btn-dark btn-xl" href="https://drive.google.com/file/d/1xO8b_4xYZsjWuy9ws-yrA3q87vTAw1yv/view?usp=sharing" target="_blank" rel = "noopener noreferrer">
+              <a className="btn btn-dark btn-xl" href="https://drive.google.com/file/d/1Xtt0BkdQAdx0uHZ-T_OxmUR_tjvAaT-K/view?usp=sharing" target="_blank" rel = "noopener noreferrer">
                 My CV
               </a>
             {/*</Scroll>*/}
