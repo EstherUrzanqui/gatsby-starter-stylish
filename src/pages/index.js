@@ -7,7 +7,7 @@ import config from '../../config';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import ScrollToTop from '../components/ScrollToTop';
-import { Helmet } from 'react-helmet'
+import Helmet from 'react-helmet'
 
 import p1 from '../assets/images/covidtalent.png';
 import p2 from '../assets/images/belocal.png';
