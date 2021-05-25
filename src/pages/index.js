@@ -21,7 +21,7 @@ const IndexPage = () => (
   <Layout>
     <Header />
     <Helmet>
-      <meta property="og:image" content={domain + "/public/image/preview.png"} />
+      <meta property="og:image" content={"/public/image/preview.png"} />
       <meta property="og:image:width" content="400" />
       <meta property="og:image:width" content="50" />
     </Helmet>
